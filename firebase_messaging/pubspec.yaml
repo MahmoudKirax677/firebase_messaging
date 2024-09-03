@@ -19,11 +19,16 @@ environment:
 dependencies:
   firebase_core: ^3.4.0
   firebase_core_platform_interface: ^5.2.1
-  firebase_messaging_platform_interface: ^4.5.43
-  firebase_messaging_web: ^3.8.13
+  firebase_messaging_platform_interface:  
+    git:
+      url: https://github.com/MahmoudKirax677/firebase_messaging.git
+      path: firebase_messaging_platform_interface
+      ref: master
+
   flutter:
     sdk: flutter
   meta: ^1.8.0
+
 
 dev_dependencies:
   async: ^2.5.0
